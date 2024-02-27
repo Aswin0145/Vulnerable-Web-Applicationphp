@@ -2,7 +2,7 @@ Auth:
   project_token: ace0c87d-6137-44d7-9335-c6a26dc594d3
   customer_token: ed5696fb-b848-4b87-a533-fb0c470cb935
 SAST:
-  language: semgrep
+  language: php
 SCA:
   language: php
 Secret_Scan: true
