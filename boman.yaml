@@ -3,6 +3,3 @@ Auth:
   customer_token: ed5696fb-b848-4b87-a533-fb0c470cb935
 SAST:
   language: semgrep
-SCA:
-  language: php
-Secret_Scan: true
