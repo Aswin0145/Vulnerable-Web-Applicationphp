@@ -1,9 +1,11 @@
 Auth:
-  project_token: 19947211-6e7c-4077-8be2-c64d95df71cc
-  customer_token: 4941f85a-5453-4f94-9247-d5565b4bd116
+  project_token: 55c0886e-782c-46f2-9b74-620008dfa3fd
+  customer_token: 8be1c3ed-fac9-4948-adfd-30a7ff6a3b02
 SAST:
   language: semgrep
+DAST:
+  type: WEB
+  URL: 'https://demo.testfire.net/'
 SCA:
-  language: php
+  language: ruby
 Secret_Scan: true
-
