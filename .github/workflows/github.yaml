@@ -19,9 +19,9 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
-      
+
       # Runs a single command using the runners shell
       - name: Install packages
-        run: sudo pip install --extra-index-url https://test.pypi.org/simple/ boman-cli-uat==12.3
-      - name: Run scan  
-        run: sudo boman-cli-uat -a run -u https://qa.boman.ai
+        run: sudo pip install boman-cli
+      - name: Run scan
+        run: sudo boman-cli -a run
