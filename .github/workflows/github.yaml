@@ -22,6 +22,6 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Install packages
-        run: sudo pip install boman-cli-uat
+        run: sudo pip install boman-cli
       - name: Run scan
-        run: sudo boman-cli-uat -a run -u https://qa.boman.ai -at 5775c87f-b2a2-49fd-995e-71547a7f86a4 -ct 5b2f4dbd-a873-4042-8441-ff38fef71ed5
+        run: sudo boman-cli -a run -u https://qa.boman.ai -at 5775c87f-b2a2-49fd-995e-71547a7f86a4 -ct 5b2f4dbd-a873-4042-8441-ff38fef71ed5
