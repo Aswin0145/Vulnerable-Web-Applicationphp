@@ -26,4 +26,4 @@ jobs:
         run: sudo pip install --extra-index-url https://test.pypi.org/simple/ boman-cli-uat
       - name: Run scan
         # run: sudo boman-cli -a run -u https://qa.boman.ai -at 5775c87f-b2a2-49fd-995e-71547a7f86a4 -ct 5b2f4dbd-a873-4042-8441-ff38fef71ed5
-        run: sudo boman-cli-uat -a run -u https://qa.boman.ai -at 0e096f66-598b-4b35-81a4-2fb33f351128 -ct 48bbf89e-b5c7-419e-8f56-6f00b53a6a86
+        run: sudo boman-cli-uat -a run -u https://qa.boman.ai -at 686dffa9-cb20-4f6a-a32f-be6dd807536f -ct b93b0db3-ed63-4dac-85c4-19d7b99d716e
